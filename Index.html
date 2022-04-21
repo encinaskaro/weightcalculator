@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Calculator</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <img  class="imagen1" src="des.png"  > 
+        <h2>Bienvenido!!</h2>
+        <h2>ENCUENTRA TU PESO IDEAL:</h2>
+        
+    </div>
+    <br>
+    <nav> 
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-25">
+                <div class="container">
+                <label> Introduzca su altura:</label>
+                    <input type="number" maxlength="20" size="20" required placeholder="cm" min="120">
+            </div>
+            </div>
+        </div>               
+        <br>
+        <div class="container">
+        <label>Edad:</label>
+        <select name="edad">
+            <option value="1">10 - 19 años</option>
+            <option value="2">20 - 29 años</option>
+            <option value="3">30 - 39 años</option>
+            <option value="4">40 - 49 años</option>
+            <option value="5"> mas de 50 años</option>
+        </select> 
+        </div>
+        <br>
+        <div class="container">
+        <label>Genero:</label>
+        <select name="genero">
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+        </select> 
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-25">
+                <div class="container">
+                    <label> Diametro de la muñeca derecha:</label>
+                        <input type="number" maxlength="20" size="20" required placeholder="cm" min="120">
+                </div>
+            </div> 
+        </div>   
+        <br>
+        <input type="submit" value="Registrar" >
+        <input type="reset" value="Limpiar">
+        
+    </div>
+    </nav>
+</header>
+</body>
+</html>
